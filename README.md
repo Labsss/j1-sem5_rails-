@@ -30,9 +30,13 @@ This applicaiton is made with love by **Alexandre Labonne (@Lab's)** and **Brice
 - faire un ```rails db:migrate```pour créer les tables de la BDD
 - faire un ```rails db:seed```pour alimenter la BDD avec un jeu d'essai.
 
+ATTENTION !
+Si besoin, changer le username du fichier database.yml situé dans ./config !
+Votre propre username fera l'affaire !
+
 ## How to run the test suite
 - Lancer le serveur avec ```$ rails server```
-- Dans le navigateur, ==http://localhost:3000==
+- Dans le navigateur, == http://localhost:3000/home/gossip ==
 
 ## Les fonctionnalités
 L'application permet:
